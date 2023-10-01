@@ -4,10 +4,10 @@ name: 部署前端项目
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
     types:
       - closed
 jobs:
